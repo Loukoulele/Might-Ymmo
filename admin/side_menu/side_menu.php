@@ -17,6 +17,9 @@
        <li>
          <a href="../admin/documents.php"><i class="fas fa-book" aria-hidden="true"></i> Documents</a>
        </li>
+       <li>
+         <a href="../admin/calendar.php"><i class="fas fa-book" aria-hidden="true"></i> Calendar</a>
+       </li>
      </ul>
      <form action="my_functions.php" method="post">
        <button class="btn btn-primary logout" name="action"><i class="fas fa-sign-out-alt" aria-hidden="true"></i> Log out</button>
