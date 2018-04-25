@@ -1,0 +1,11 @@
+  .footer {
+  font-family: Montserrat, sans-serif;
+  font-size: 11px !important;
+  letter-spacing: 3px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2d2d30;
+  text-align: center;
+}

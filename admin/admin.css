@@ -1,0 +1,37 @@
+.shadow{
+  margin-top: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add{
+  float: right;
+  color: black !important;
+}
+.add:hover{
+  color: lightgrey !important;
+}
+
+.header{
+  background-color: #333;
+}
+.detail{
+  padding: 2em;
+  margin-left: -8em;
+}
+.modal-body {
+    position: fixed;
+}
+
+.row{
+  padding-left: 20em;
+}
+.card{
+  max-width: 100em;
+}
+.btn{
+  margin-bottom: 1em;
+}
+h4{
+  margin-top: 1em;
+  color: white;
+}
