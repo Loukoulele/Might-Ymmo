@@ -5,7 +5,7 @@
     <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="images/paris.jpg" alt="Paris" class="img-fluid">
+          <img src="images/appart1.jpg" alt="Paris" class="img-fluid">
           <p><strong>Suisse</strong></p>
           <p>Appartement Fribourg</p>
           <!--<button class="btn" data-toggle="modal" data-target="#myModal">Interesser ? Voir !</button>-->
@@ -14,7 +14,7 @@
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="images/paris.jpg" alt="New York" class="img-fluid">
+          <img src="images/appart2.jpg" alt="New York" class="img-fluid">
           <p><strong>France</strong></p>
           <p>Appartement Paris</p>
           <!--<button class="btn" data-toggle="modal" data-target="#myModal">Interesser ? Voir !</button>-->
@@ -23,7 +23,7 @@
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="images/paris.jpg" alt="San Francisco" class="img-fluid">
+          <img src="images/appart3.jpg" alt="San Francisco" class="img-fluid">
           <p><strong>San Francisco</strong></p>
           <p>Sunday 29 November 2015</p>
           <!--<button class="btn" data-toggle="modal" data-target="#myModal">Interesser ? Voir !</button>-->

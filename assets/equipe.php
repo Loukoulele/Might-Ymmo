@@ -1,7 +1,13 @@
 <div id="band" class="container text-center">
   <h3>Notre équipe</h3>
-  <p><em>We love music!</em></p>
-  <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p><em>We love development !</em></p>
+  <p>Notre équipe se constitue de 2 personnes sur ce projet, M. Julien Da Corte et M. Ilan Benayoun.
+Notre expert en web design est Julien. Il possède une parfaite maîtrise du CSS et du framework bootstrap ce qui nous permet de créer des patern de sites tout aussi uniques les uns que les autres.
+Notre chef d'équipe est Ilan. Il s'est occupé de diriger le projet avec simplicité et rigueur mais a également fait en sorte de coordonner les tâches effectuées par chacun.
+Notre équipe vous accueille et vous souhaite la bienvenue sur notre projet, le site Might-Ymmo.
+Pour plus d'informations, veuillez contacter le staff via le formulaire de contact.
+Cordialement.
+Le staff</p>
   <br>
   <div class="row">
     <div class="col-sm-6">
