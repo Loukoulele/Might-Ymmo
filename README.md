@@ -1,6 +1,6 @@
 # My Project for BTS SIO
 
-# Application pour E4 // Progiciel pour agence immbolière
+# Application pour E4 // Progiciel pour agence immobilière
 
 ```diff
 +# v1.2 Alpha : Changements apportés à cette version : "Ajout calendrier espace admin"
