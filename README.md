@@ -1,4 +1,4 @@
-# My Projet for BTS SIO
+# My Project for BTS SIO
 
 # Application pour E4 // Progiciel pour agence immbolière
 
