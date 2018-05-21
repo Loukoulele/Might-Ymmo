@@ -11,26 +11,24 @@ Le staff</p>
   <br>
   <div class="row">
     <div class="col-sm-6">
-      <p class="text-center"><strong>Da Corte</strong></p><br>
-      <a href="#demo" data-toggle="collapse">
-        <img src="images/dacorte.jpg" class="rounded-circle person" alt="Random Name" width="255" height="255">
-      </a>
-      <div id="demo" class="collapse">
-        <p>Leader assistant project</p>
-        <p>Natixis</p>
-        <p>Member since 2016</p>
-      </div>
+      <p class="text-center"><strong>Da Corte Julien</strong></p><br>
+        <img src="images/dacorte.jpg" class="rounded-circle" width="200" height="200">
+      <br/>  <br/>
+      <figcaption class="figure-caption">
+          Leader assistant project<br/>
+          Natixis<br/>
+          Member since 2017<br/>
+      </figcaption>
     </div>
     <div class="col-sm-6">
-      <p class="text-center"><strong>Ilan</strong></p><br>
-      <a href="#demo2" data-toggle="collapse">
-        <img src="images/ilan.jpg" class="rounded-circle person" alt="Random Name" width="255" height="255">
-      </a>
-      <div id="demo2" class="collapse">
-        <p>Leader Project</p>
-        <p>Mighty Fox</p>
-        <p>Member since 2017</p>
-      </div>
+      <p class="text-center"><strong>Benayoun Ilan</strong></p><br>
+        <img src="images/ilan.jpg" class="rounded-circle" width="200" height="200">
+      <br/>  <br/>
+      <figcaption class="figure-caption">
+          Leader Project<br/>
+          Mighty Fox<br/>
+          Member since 2017<br/>
+        </figcaption>
     </div>
   </div>
 </div>
