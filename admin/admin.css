@@ -31,6 +31,17 @@
 .btn{
   margin-bottom: 1em;
 }
+.btn-danger{
+  background-color: red !important;
+}
+.btn-primary, .btn-danger{
+  border-radius: 15px;
+  background-color: #0069d9;
+  border-color:white;
+  color: white;
+  padding-right: 1em;
+  padding-left: 1em;
+}
 h4{
   margin-top: 1em;
   color: white;

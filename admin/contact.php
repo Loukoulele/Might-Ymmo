@@ -50,14 +50,7 @@
 
   <div id="contact" class="container">
     <h3 class="text-center">Contact</h3>
-    <div class="row">
-      <!-- <div class="col-md-4">
-        <p>Fan? Drop a note.</p>
-        <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
-        <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
-        <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
-      </div> -->
-      <form class="form" role="form" action="contact.php" method="post" enctype="multipart/form-data">
+      <form class="form text-center" role="form" action="contact.php" method="post" enctype="multipart/form-data">
       <div class="col">
         <div class="row">
           <div class="col-sm-6 form-group">
@@ -74,10 +67,9 @@
         <br>
         <div class="row">
           <div class="col-md-12 form-group">
-            <button class="btn pull-right" type="submit">Send</button>
+            <button class="btn" type="submit">Send</button>
           </div>
         </div>
       </div>
     </form>
-    </div>
   </div>
