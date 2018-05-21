@@ -12,7 +12,6 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-      <link href="../style.css" rel="stylesheet">
       <link href="appart.css" rel="stylesheet">
 
       <link rel="icon" href="img/favicon.png" />
@@ -37,17 +36,13 @@
         while($appartement = $statement->fetch()) // Récupere la requete
         {
           echo'<div class="col-lg-4 col-sm-6 portfolio-item">';
-            echo'<div class="card">';
+            echo'<div class="card shadow">';
               echo'<a href="../admin/view.php?id=' . $appartement['id'] . '">';?> <img class="card-img-top" src="<?php echo'../images/' . $appartement['image']; ?>" alt=""></a>
               <?php
               echo'<div class="card-body">';
-                echo'<h4 class="card-title">';
-                  echo'<a href="#">' . $appartement['ville'];'</a>';
-                echo'</h4>';
-                echo'<h5>';
-                  echo'Nombre de pièce :' . $appartement['nbr_piece'];'';
-                echo'</h5>';
-                echo'<p class="card-text">' . $appartement['description'];'</p>';
+                echo'<h4 class="card-title">'. $appartement['ville'].'</h4>';
+                  echo'<h5>Nombre de pièce : ' . $appartement['nbr_piece'].'</h5>';
+                echo'<p class="card-text">' . $appartement['description'].'</p>';
               echo'</div>';
             echo'</div>';
           echo'</div>';
