@@ -15,10 +15,10 @@
          <a href="../admin/message.php"><i class="fas fa-envelope"></i> Messages</a>
        </li>
        <li>
-         <a href="../admin/documents.php"><i class="fas fa-book" aria-hidden="true"></i> Documents</a>
+         <a href="../admin/documents.php"><i class="fas fa-book" aria-hidden="true"></i> Formation</a>
        </li>
        <li>
-         <a href="../admin/calendar.php"><i class="fas fa-book" aria-hidden="true"></i> Calendar</a>
+         <a href="../admin/calendar.php"><i class="fa fa-calendar" aria-hidden="true"></i> Calendar</a>
        </li>
      </ul>
      <form action="my_functions.php" method="post">

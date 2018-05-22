@@ -37,9 +37,6 @@ if(!isset($_SESSION['admin']))
     <?php
     include 'side_menu/side_menu.php';
     ?>
-
-<div class="text-center">
-  <h1 style="margin-top:10em">A VENIR ...</h1>
-    </div>
+    <iframe src="doc.pdf" width="1000" height="900" align="middle"></iframe>
   </body>
 </html>
