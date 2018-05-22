@@ -2,7 +2,7 @@
 
 <div class="nav-side-menu">
    <div class="brand">
-      <a class="navbar-brand" href="#"><img src="imgs/logo.png" height="50" width="100"</a>
+      <a class="navbar-brand"><img src="imgs/logo.png" height="50" width="100"</a>
    </div>
    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse"
    data-target="#menu-content"></i>

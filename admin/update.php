@@ -230,7 +230,8 @@ if(!isset($_SESSION['admin']))
 
   <body>
 
-    <h1 class="text-logo">Modifier un Appartement :</h1>
+    <h1 class="text-logo text-center">Modifier un Appartement :</h1>
+    <br/><br/>
     <div class="container admin">
       <div class="row">
        <form class="form" role="form" action="<?php echo 'update.php?id=' . $id; ?>" method="post" enctype="multipart/form-data">

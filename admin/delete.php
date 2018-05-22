@@ -69,7 +69,8 @@ if(!isset($_SESSION['admin']))
 
   <body>
 
-    <h1 class="text-logo">Supprimer un Appartement :</h1>
+    <h1 class="text-logo text-center">Supprimer un Appartement :</h1>
+    <br/><br/>
     <div class="container admin">
       <div class="row">
        <form class="form" role="form" action="delete.php" method="post">

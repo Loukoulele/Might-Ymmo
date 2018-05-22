@@ -30,8 +30,8 @@
   <div class="row justify-content-center">
     <div class="col-md-6 padding">
       <div class="card shadow detail">
-      <h3 class="text-logo">Appartement</h3>
-      <img src="<?php echo'../images/' . $appartement['image']; ?>" class="rounded mx-auto d-block" alt="...">
+      <h3 class="text-logo text-center">Appartement</h3>
+      <img src="<?php echo'../images/' . $appartement['image']; ?>" class="rounded mx-auto d-block" alt="..." width="500" height="400">
           <div class="card-body">
             <p><?php echo ' ' . $appartement['id']; ?></p>
             <p><?php echo ' ' . $appartement['description']; ?></p>
@@ -41,11 +41,6 @@
             <p><?php echo ' ' . $appartement['adresse']; ?></p>
             <p><?php echo ' ' . $appartement['etage']; ?></p>
             <p><?php echo ' ' . $appartement['date_dispo']; ?></p>
-            <div class="row">
-              <div class="col-md-12 form-group">
-                <button class="btn pull-right" type="submit"><a href="../contact_message.php" style="text-decoration:none;color:black">Send</a></button>
-              </div>
-            </div>
           </div>
     </div>
 </body>

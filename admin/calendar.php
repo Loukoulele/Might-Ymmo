@@ -37,10 +37,8 @@ if(!isset($_SESSION['admin']))
     <?php
     include 'side_menu/side_menu.php';
     ?>
-
-<div class="text-center">
-  <iframe src="https://calendar.google.com/calendar/embed?src=ilan77420%40gmail.com&ctz=Europe%2FParis" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <div class="text-center">
+      <h1 style="margin-top:10em">A VENIR ...</h1>
     </div>
-    <div>
   </body>
 </html>

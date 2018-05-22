@@ -42,7 +42,7 @@ if(!isset($_SESSION['admin']))
     <div class="col col-md-auto">
       <div class="card shadow">
         <div class="header text-center">
-          <H4>Liste des messages</h4>
+          <h4>Liste des messages</h4>
         </div>
         <div class="ontent table-full-width table-responsive">
           <table class="table table-striped table-hover">

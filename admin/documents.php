@@ -41,6 +41,5 @@ if(!isset($_SESSION['admin']))
 <div class="text-center">
   <h1 style="margin-top:10em">A VENIR ...</h1>
     </div>
-    <div>
   </body>
 </html>
