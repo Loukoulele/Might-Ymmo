@@ -13,7 +13,6 @@
     $email          = checkInput($_POST['email']);
     $mess           = checkInput($_POST['mess']);
     $tel           = checkInput($_POST['tel']);
-    $id_appart      = $_SESSION['id'];
     $isSucces       = true;
 
     if(empty($nom))
@@ -43,8 +42,8 @@
     if ($isSucces)
     {
       $db = Database::connect();
-      $statement = $db->prepare("INSERT INTO message (mess, nom, tel, email, id_appart) values(?, ?, ?, ?, ?)");
-      $statement->execute(array($mess, $nom, $tel, $email, $id_appart));
+      $statement = $db->prepare("INSERT INTO message (mess, nom, tel, email) values(?, ?, ?, ?)");
+      $statement->execute(array($mess, $nom, $tel, $email));
       Database::disconnect();
       header("Location: ../appart/appart.php");
     }
