@@ -1,5 +1,9 @@
 <?php
-  require 'admin/Database.php';
+  session_start();
+?>
+
+  <?php
+    require_once 'Database.php';
 
   $nom = $email = $mess = $nomError = $emailError = $messError = "";
 
@@ -32,7 +36,7 @@
     {
       $db = Database::connect();
       $statement = $db->prepare("INSERT INTO message (mess, nom, email) values(?, ?, ?)");
-      $statement->execute(array($nom, $mess, $email));
+      $statement->execute(array($mess, $nom, $email));
       Database::disconnect();
       header("Location: contact.php");
     }

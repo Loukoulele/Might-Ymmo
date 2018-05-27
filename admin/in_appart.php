@@ -89,6 +89,8 @@ if(!isset($_SESSION['admin']))
                      echo'</td>';
                    echo'</tr>';
                  }
+
+                 //$_SESSION['id'] = $appartement['id'];
                   ?>
                </tr>
              </tbody>
