@@ -73,7 +73,7 @@ if(!isset($_SESSION['admin']))
                      echo'<td>' . $message['email'] . '</td>';
 
                      echo'<td>';
-                       echo '<a class="btn btn-primary" href="message_view.php?id=' . $message['id'] . '"><i class="fas fa-eye fa-lg"></i></a>';
+                       echo '<a class="btn btn-primary" href="view.php?id=' . $message['id_appart'] . '"><i class="fas fa-eye fa-lg"></i></a>';
                        echo '<a class="btn btn-danger" href="message_delete.php?id=' .$message['id'] . '"><i class="far fa-trash-alt fa-lg"></i></a>';
                      echo'</td>';
                    echo'</tr>';

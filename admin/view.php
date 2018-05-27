@@ -1,3 +1,8 @@
+<?php
+  session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +29,7 @@
   <style><?php include 'admin.css'; ?></style>
   <?php
   include 'calldb.php';
-  include 'side_menu/side_menu.php';
+  //include 'side_menu/side_menu.php';
   ?>
 
   <div class="row justify-content-center">
@@ -42,5 +47,8 @@
             <p><?php echo ' ' . $appartement['etage']; ?></p>
             <p><?php echo ' ' . $appartement['date_dispo']; ?></p>
           </div>
+          <!--<a class="btn btn-primary" href="contact.php">Intéresser ?</a>-->
+          <?php echo '<a class="btn btn-primary" href="contact.php?id=' . $appartement['id'] . '">Intéresser ? </a>';?>
+          <?php $_SESSION['id'] = $appartement['id'];?>
     </div>
 </body>

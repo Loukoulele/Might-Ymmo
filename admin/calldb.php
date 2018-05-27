@@ -4,7 +4,8 @@
 
   if(!empty($_GET['id']))
   {
-    $id = checkInput($_GET['id']);
+    //$id = checkInput($_GET['id']);
+    $id = $_GET['id'];
   }
 
   $db = Database::connect();
@@ -16,12 +17,12 @@
 
 
 
-  function checkInput($data)
+  /*function checkInput($data)
   {
     $data = trim($data);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
     return $data;
-  }
+  }*/
 
  ?>

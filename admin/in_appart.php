@@ -90,7 +90,7 @@ if(!isset($_SESSION['admin']))
                    echo'</tr>';
                  }
 
-                 //$_SESSION['id'] = $appartement['id'];
+                 $_SESSION['id'] = $appartement['id'];
                   ?>
                </tr>
              </tbody>
